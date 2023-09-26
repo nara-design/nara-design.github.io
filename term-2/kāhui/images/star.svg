@@ -1,0 +1,50 @@
+<svg width="221" height="221" viewBox="0 0 221 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.3" filter="url(#filter0_f_157_1966)">
+<circle cx="110.377" cy="110.564" r="65.8427" transform="rotate(-144.9 110.377 110.564)" fill="#D9D9D9"/>
+</g>
+<path opacity="0.43" d="M112.74 143.421L101.884 158.072L99.8455 151.26L72.9553 167.028L79.3709 127.681L55.1648 121.175L76.5884 108.459L60.0981 73.2065L89.8745 80.932L91 73.8847L104.765 84.7934L117.551 57.1793L123.831 77.0401L138.195 69.6881L135.398 96.9471L169 105.837L138.896 123.657L150.45 148.037L133.528 146.303L133.409 169.086L112.74 143.421Z" fill="#A88EE0"/>
+<path d="M73.4209 167.218L80.6551 123.443" stroke="white" stroke-miterlimit="10"/>
+<path d="M106.246 131.935L73.4212 167.217" stroke="white" stroke-miterlimit="10"/>
+<path d="M112.968 143.64L73.4207 167.218" stroke="white" stroke-miterlimit="10"/>
+<path d="M106.245 131.935L71.3516 120.535" stroke="white" stroke-miterlimit="10"/>
+<path d="M102.139 99.1769L71.352 120.535" stroke="white" stroke-miterlimit="10"/>
+<path d="M106.245 131.935L102.139 99.1769" stroke="white" stroke-miterlimit="10"/>
+<path d="M144.665 110.357L102.139 99.1768" stroke="white" stroke-miterlimit="10"/>
+<path d="M106.245 131.935L144.664 110.357" stroke="white" stroke-miterlimit="10"/>
+<path d="M133.791 127.006L144.665 110.356" stroke="white" stroke-miterlimit="10"/>
+<path d="M106.245 131.935L133.79 127.006" stroke="white" stroke-miterlimit="10"/>
+<path d="M133.361 168.582L106.246 131.935" stroke="white" stroke-miterlimit="10"/>
+<path d="M133.791 127.006L133.361 168.582" stroke="white" stroke-miterlimit="10"/>
+<path d="M102.14 99.1768L118.071 57.606" stroke="white" stroke-miterlimit="10"/>
+<path d="M133.361 168.582L112.968 143.64" stroke="white" stroke-miterlimit="10"/>
+<path d="M106.245 131.935L112.968 143.64" stroke="white" stroke-miterlimit="10"/>
+<path d="M102.156 158.237L100.103 151.31" stroke="white" stroke-miterlimit="10"/>
+<path d="M112.967 143.64L102.155 158.237" stroke="white" stroke-miterlimit="10"/>
+<path d="M79.8902 128.076L55.8828 121.669" stroke="white" stroke-miterlimit="10"/>
+<path d="M71.3522 120.535L55.8831 121.669" stroke="white" stroke-miterlimit="10"/>
+<path d="M77.805 108.597L55.8833 121.669" stroke="white" stroke-miterlimit="10"/>
+<path d="M79.8242 114.659L60.9021 73.9571" stroke="white" stroke-miterlimit="10"/>
+<path d="M102.139 99.1767L60.9019 73.9569" stroke="white" stroke-miterlimit="10"/>
+<path d="M107.232 85.8881L60.9011 73.9571" stroke="white" stroke-miterlimit="10"/>
+<path d="M118.07 57.6058L105.204 85.3658" stroke="white" stroke-miterlimit="10"/>
+<path d="M134.462 146.533L150.382 148.134" stroke="white" stroke-miterlimit="10"/>
+<path d="M133.791 127.006L150.382 148.134" stroke="white" stroke-miterlimit="10"/>
+<path d="M129.686 95.8243L144.664 110.357" stroke="white" stroke-miterlimit="10"/>
+<path d="M168.904 106.122L129.687 95.8241" stroke="white" stroke-miterlimit="10"/>
+<path d="M133.791 127.006L168.903 106.122" stroke="white" stroke-miterlimit="10"/>
+<path d="M150.382 148.134L138.979 123.92" stroke="white" stroke-miterlimit="10"/>
+<path d="M129.687 95.824L118.07 57.6059" stroke="white" stroke-miterlimit="10"/>
+<path d="M102.139 99.1769L129.687 95.8242" stroke="white" stroke-miterlimit="10"/>
+<path d="M138.711 70.1044L129.687 95.824" stroke="white" stroke-miterlimit="10"/>
+<path d="M135.575 97.3718L138.711 70.1046" stroke="white" stroke-miterlimit="10"/>
+<path d="M124.805 77.3662L138.711 70.1045" stroke="white" stroke-miterlimit="10"/>
+<path d="M90.4365 81.563L91.5719 74.5525" stroke="white" stroke-miterlimit="10"/>
+<path d="M105.204 85.3658L91.5721 74.5523" stroke="white" stroke-miterlimit="10"/>
+<defs>
+<filter id="filter0_f_157_1966" x="0.567513" y="0.754829" width="219.618" height="219.618" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="21.9804" result="effect1_foregroundBlur_157_1966"/>
+</filter>
+</defs>
+</svg>

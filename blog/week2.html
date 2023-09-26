@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Nara's Blog
+	</title>
+    <link rel="icon" type="image/ico" href="../images/favicon-black.ico">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/blog.css">
+</head>
+
+<body>
+
+    <header>
+        
+        <div class="thick-border">
+
+            <!-- logo block start -->
+            <div class="logo-block" id="inner-border">
+                <a title="back to home page?" href="../index.html">
+                    <img src="../images/logo-square-02-blackbg.svg" alt="nara-logo">
+                </a>
+            </div>
+            <!-- logo block finish -->
+
+            <nav>
+                <a class="block-link" href="week1.html"><span>Week One</span></a>
+                <a title="you are here!" class="current block-link" href="week2.html"><span>Week Two</span></a>
+                <a class="block-link" href="week3.html"><span>Week Three</span></a>
+                <a class="block-link" href="week4.html"><span>Week Four</span></a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- onthispage start -->
+    <div class="on-this-page">
+        <div class="block-link current"><span>on this page:</span></div>
+        <a class="block-link" href="#problem"><span>problem statement</span></a>
+        <a class="block-link" href="#fieldreview"><span>field review</span></a>
+        <a class="block-link" href="#sitemap"><span>site map</span></a>
+        <a class="block-link" href="#userflows"><span>user flows</span></a>
+        <a class="block-link" href="#branding"><span>branding</span></a>
+        <a class="block-link" href="#lofiprototyping"><span>lo-fi prototyping</span></a>
+    </div>
+    <!-- onthispage finish -->
+
+    <main>
+
+        <div class="max-width">
+
+            <!-- problemstatement post start -->
+            <div id="problem" class="post top-bottom-margin">
+                <div class="post-title title-bg-1">
+                    <span class="post-title-text">Mon &bull; 27/02/23</span>
+                </div>
+                <section>
+                    <h1>problem statement</h1>
+                    <p>News platforms focus too much on negative news stories without a balance of positive news stories. This oversaturation of negativity encourages doomscrolling; consequently, many news consumers leave in a worse mood than when they started.</p>
+                </section>
+                <section>
+                    <h2>so what?</h2>
+                    <p>To help me figure out a solution, I reframed the problem as a "how might we" question: how might we create a news platform that allows users to stay informed without being overwhelmed with negativity?</p>
+                    <p>My answer to this question is to create web-based news platform that allows users to choose their preferred ratio of negative to positive news. This, on top of preventing users from seeing an endless sea of negative news headlines, also allows users some level of control over their news feed, thus enabling a degree of personalisation.</p>
+                    <p>I also have the tentative idea of incorporating positive reminders within news articles to avoid users actively falling down the doomscrolling wormhole. However, as this isn't necessary for an MVP, I will have to see how I go.</p>
+                </section>
+            </div>
+            <!-- problemstatement post finish -->
+
+            <!-- fieldreview post start -->
+            <div id="fieldreview" class="post top-bottom-margin">
+                <div class="post-title title-bg-2">
+                    <span class="post-title-text">Tue &bull; 28/02/23</span>
+                </div>
+                <section>
+                    <h1>field review</h1>
+                    <p>An analysis was done of existing news platforms with a focus on web-based platforms. I made note of what each platform does well and lacks in.</p>
+                </section>
+
+                <!-- ai news start -->
+                <section>
+
+                    <h2>ai news</h2>
+                    <p><a href="https://www.artificialintelligence-news.com/">https://www.artificialintelligence-news.com/</a></p>
+                    <img class="full-padded" src="https://i.imgur.com/ThUFicU.png" alt="">
+
+                    <div class="full">
+                        <div class="third-padded">
+                            <p><b>Does Well</b></p>
+                            <p>
+                                <ul>
+                                    <li>clear purpose</li>
+                                    <li>consistent colour palette</li>
+                                    <li>back to top button</li>
+                                    <li>shareable to social media platforms</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="two-thirds-padded">
+                            <p><b>Could be improved</b></p>
+                            <p>
+                                <ul>
+                                    <li>information overload (cluttered content, many columns, very little empty space)</li>
+                                    <li>a lot of ads (distracting from main content)</li>
+                                    <li>site name/logo missing from fixed header</li>
+                                    <li>unintuitive nav layout (the convention for top left corner to link back to the home page, but this site has facebook, twitter and linkedin icons instead; those could be in the footer instead)</li>
+                                    <li>main page continues scrolling for far too long</li>
+                                    <li>messy layout</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </section>
+                <!-- ai news finish -->
+
+                <!-- artifact start -->
+                <section>
+                    <h2>artifact</h2>
+                    <p><a href="https://artifact.news/">https://artifact.news/</a></p>
+
+                    <div class="full">
+                        <img class="half-padded" src="https://i.imgur.com/Y4W29NZ.png" alt="">
+                        <img class="half-padded" src="https://i.imgur.com/ij56MGM.png" alt="">
+                    </div>
+
+                    <div class="full">
+                        <div class="two-thirds-padded">
+                            <p><b>Does Well</b></p>
+                            <p>
+                                <ul>
+                                    <li>presents news stories from a wide variety of sources</li>
+                                    <li>personalised "for you" page</li>
+                                    <li>sleek, comfortable ui design</li>
+                                    <li>shows how many reads each article has</li>
+                                    <li>save stats on what the user tends to prefer</li>
+                                    <li>allows user to save preferred news topics which can be edited at any time</li>
+                                    <li>very visually neutral, allows content to stick out</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="third-padded">
+                            <p><b>Could be Improved</b></p>
+                            <p>
+                                <ul>
+                                    <li>lacks a filter system (after searching for something, only lets you endlessly scroll to find the thing you're looking for; there's no way to narrow down search results)</li>
+                                    <li>only available on mobile</li>
+                                    <li>requires creating an account to see news content</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- artifact finish -->
+
+                <!-- rnz start -->
+                <section>
+                    <h2>RNZ</h2>
+                    <p><a href="https://www.rnz.co.nz/">https://www.rnz.co.nz/</a></p>
+                    <img class="full-padded" src="https://i.imgur.com/R8gYJDE.png" alt="">
+                    <div class="full">
+                        <div class="two-thirds-padded">
+                            <p><b>Does Well</b></p>
+                            <p>
+                                <ul>
+                                    <li>follows design conventions</li>
+                                    <li>simple navigation</li>
+                                    <li>variety of ways of presenting news (video, article, audio)</li>
+                                    <li>consistent, simple colour palette</li>
+                                    <li>adjusts with screen size</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="third-padded">
+                            <p><b>Could be Improved</b></p>
+                            <p>
+                                <ul>
+                                    <li>navigation isn't universal (scrolls up with content, lacks "back to top" button)</li>
+                                    <li>scrolls for a looong time</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- rnz finish -->
+
+                <!-- optimist start -->
+                <section>
+                    <h2>the optimist daily</h2>
+                    <p><a href="https://www.optimistdaily.com/">https://www.optimistdaily.com/</a></p>
+                    <img class="full-padded" src="https://i.imgur.com/EWak3Mg.png" alt="">
+
+                    <div class="full">
+                        <div class="half-padded">
+                            <p><b>Does Well</b></p>
+                            <p>
+                                <ul>
+                                    <li>simple layout, balance of content and empty space</li>
+                                    <li>easy to navigate</li>
+                                    <li>has search + filter capabilities</li>
+                                    <li>consistent, simple colour palette</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="half-padded">
+                            <p><b>Could be Improved</b></p>
+                            <p>
+                                <ul>
+                                    <li>navigation isn't universal (scrolls up with the rest of the content and lacks "back to top" button to take the user up quickly)</li>
+                                    <li>purpose of the website isn't clearly stated from the beginning (only becomes clear after the user scrolls all the way to the bottom)</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- optimist finish -->
+
+                <!-- nzherald start -->
+                <section>
+                    <h2>NZ herald</h2>
+                    <p><a href="https://www.nzherald.co.nz/">https://www.nzherald.co.nz/</a></p>
+                    <img class="full-padded" src="https://i.imgur.com/5SfkeSS.png" alt="">
+                    <div class="full">
+                        <div class="half-padded">
+                            <p><b>Does Well</b></p>
+                            <p>
+                                <ul>
+                                    <li>main content block is narrower</li>
+                                    <li>adjusts with screen size</li>
+                                    <li>lots of empty space (at least on a desktop screen)</li>
+                                    <li>variety of news mediums; text, audio, video</li>
+                                    <li>no ads</li>
+                                    <li>has back to top button</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="half-padded">
+                            <p><b>Could be Improved</b></p>
+                            <p>
+                                <ul>
+                                    <li>navigation isn't universal (scrolls up with content - on all screen sizes)</li>
+                                    <li>back to top button only appears when you start scrolling up, isn't very obvious</li>
+                                    <li>scrolls for a long time</li>
+                                    <li>overload of categories to choose from in navigation</li>
+                                    <li>inconsistent colour palette (caused by overload of colour-coded categories)</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- nzherald finish -->
+
+                <section>
+                    <h2>thoughts</h2>
+                    <p>
+                        <ul>
+                            <li>all news sites inevitably have some form of bias or another, so I like Artifact's approach of sourcing news from all sorts of sources</li>
+                            <li>the easiest sites to navigate tend to be the ones with simple colour schemes</li>
+                            <li>the navigation must be fixed in place, otherwise the user is given too much work to continue using the website</li>
+                            <li>avoid too many columns (max of three on a desktop screen) to avoid clutter and overwhelming the user</li>
+                            <li>make sure site adjusts to be accessible on both desktop and mobile (and in-between sizes)</li>
+                        </ul>
+                    </p>
+                </section>
+
+            </div>
+            <!-- fieldreview post finish -->
+
+            <!-- sitemap start -->
+            <div id="sitemap" class="post top-bottom-margin">
+                <div class="post-title title-bg-1">
+                    <span class="post-title-text">Tue &bull; 28/02/23</span>
+                </div>
+                <section>
+                    <h1>Site map</h1>
+                    <img class="full-padded" src="https://i.imgur.com/WwoijVZ.png" alt="">
+                </section>
+            </div>
+            <!-- sitemap finish -->
+
+            <!-- userflows start -->
+            <div id="userflows" class="post top-bottom-margin">
+                <div class="post-title title-bg-2">
+                    <span class="post-title-text">Wed &bull; 01/03/23</span>
+                </div>
+                <section>
+                    <h1>user flows</h1>
+                    <p><b>Key</b></p>
+                    <img class="full-padded" src="https://i.imgur.com/Mgkz3IJ.png" alt="user flow key">
+                    <p><b>Creating an account/signing into an account</b></p>
+                    <img class="full-padded" src="https://i.imgur.com/4PPtQHD.png" alt="">
+                    <p><b>Adjusting negative to positive news ratio</b></p>
+                    <img class="full-padded" src="https://i.imgur.com/s1Z1Bo4.png" alt="">
+                </section>
+            </div>
+            <!-- userflows finish -->
+
+            <!-- branding start -->
+            <div id="branding" class="post top-bottom-margin">
+                <div class="post-title title-bg-1">
+                    <span class="post-title-text">Wed &bull; 01/03/23 — Fri &bull; 03/03/23</span>
+                </div>
+                <section>
+                    <h1>branding</h1>
+                    <p>As the problem I chose to focus on is doomscrolling, I decided to take the "doom" and flip it upside-down, literally. And so the news platform is named The Daily Woopscroll.</p>
+                </section>
+
+                <!-- logo start -->
+                <section>
+                    <h2>logo</h2>
+                    <div class="full">
+                        <div class="two-thirds">
+                            <p><b>Concepts</b></p>
+                            <img class="full-padded" src="https://i.imgur.com/M5csvc8.png" alt="woop logo concepts">
+                        </div>
+                        <div class="third">
+                            <p><b>Final</b></p>
+                            <img class="full-padded" src="../images/woopscroll-logo-03.svg" alt="woop final logo">
+                        </div>
+                    </div>
+                </section>
+                <!-- logo finish -->
+
+                <section>
+                    <h2>stylescapes</h2>
+                    <p>I tried to create three distinctly different directions in these stylescapes to give myself a range of options. Each stylescape has the same core elements and the same focus on countering negativity.</p>
+                    <img class="full-padded" src="https://i.imgur.com/tQ0yveA.jpg" alt="stylescape 1">
+                    <img class="full-padded" src="https://i.imgur.com/sCetkOD.png" alt="stylescape 2">
+                    <img class="full-padded" src="https://i.imgur.com/M9jcUf5.jpg" alt="stylescape 3">
+                    <p>The first stylescape has ripped paper textures to create a subtle link to newspaper, as well as a toned-down colour palette with the intention of conveying calmness. However, next to the other two stylescapes this option ends up looking dull instead of uplifting.</p>
+                    <p>Though I thought the second stylescape is the strongest in terms of good vibes, I think the bright colours would be too distracting for a news platform. By comparison, the third option is ideal due to its shear simplicity. The minimalist styling is neutral enough for a news platform and the singular use of yellow gives it a bright, positive feeling. For these reasons I have decided to go with the third option for the branding of this project.</p>
+                </section>
+
+            </div>
+            <!-- branding finish -->
+
+            <!-- lofiprototypes start -->
+            <div id="lofiprototyping" class="post top-bottom-margin">
+                <div class="post-title title-bg-2">
+                    <span class="post-title-text">Mon &bull; 27/02/23 — Fri &bull; 03/03/23</span>
+                </div>
+                <section>
+                    <h1>lo-fi prototyping</h1>
+                    <p>This week I focused on creating lofi prototypes only, starting with some very rough sketches and idea-dumping.</p>
+                </section>
+                <section>
+                    <h2>sketches + idea dump</h2>
+                    <img class="full-padded" src="https://i.imgur.com/6r4IE1L.jpg" alt="ideation sketches">
+                </section>
+                <section>
+                    <h2>paper prototypes</h2>
+                    <img class="full-padded" src="https://i.imgur.com/WpVJyRZ.jpg" alt="">
+                </section>
+                <section>
+                    <h2>lo-fi digital prototypes</h2>
+                    <img class="full-padded" src="https://i.imgur.com/c87cDoT.png" alt="">
+                </section>
+                <section>
+                    <h2>user test questions</h2>
+                    <img class="full-padded" src="https://i.imgur.com/hncehPS.png" alt="">
+                </section>
+            </div>
+            <!-- prototypes finish -->
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Nara's blog: V2.1</p>
+        <p>This site is for educational purposes only.</p>
+        <p>Beep boop.</p>
+    </footer>
+
+</body>
+
+</html>

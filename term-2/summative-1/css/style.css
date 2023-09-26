@@ -1,0 +1,588 @@
+/* 1. background styling */
+/* 2. header, main, footer */
+/* 3. text */
+/* 4. buttons, dropdowns, inputs */
+/* 5. pages */
+/* 6. media queries */
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+    font-size:20px;
+    line-height:36px;
+}
+
+/* 1. BACKGROUND STYLING START */
+
+#landing-page {
+    width:100%;
+    background-image:url(../images/landing-page-bg.png);
+    background-size:cover;
+}
+
+#about-page {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+#exchange-page {
+    background-image:url(../images/exchange-bg-mob.png);
+    background-size:cover;
+}
+
+.white-bg {
+    background-color:#fff;
+}
+
+.black-bg {
+    background-color:#000;
+}
+
+.green-bg {
+    background-color:#6E896A;
+}
+
+.white-border {
+    border:3px solid #fff;
+}
+
+.black-border {
+    border:3px solid #000;
+}
+
+.orange-border {
+    border:3px solid #EE892F;
+}
+
+.green-border {
+    border:3px solid #6E896A;
+}
+
+/* 2. HEADER, MAIN, FOOTER START */
+
+.mob-nav {
+    display:flex;
+    flex-direction:row;
+    padding:30px;
+    gap:30px;
+}
+
+nav {
+    font-weight:500;
+    font-style:italic;
+}
+
+.menu-button, .close-button {
+    width:25px;
+    height:auto;
+}
+
+.menu {
+    width:100%;
+    height:100vh;
+    display:none;
+    flex-direction:column;
+
+    background-color:#fff;
+    position:absolute;
+    z-index:1;
+    top:0;
+    padding:40px 30px;
+    gap:100px;
+}
+
+.menu ul {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+nav a {
+    letter-spacing:2px;
+    color:#000;
+}
+
+nav a:hover {
+    letter-spacing:0;
+    font-weight:900;
+}
+
+.active-nav {
+    letter-spacing:0;
+    font-weight:900;
+}
+
+.showMenu {
+    display:flex;
+}
+
+.desk-nav {
+    display:none;
+}
+
+main {
+    padding:0;
+}
+
+footer {
+    width:100%;
+    padding:80px;
+
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+
+    font-size:16px;
+    line-height:20px;
+    font-weight:500;
+    letter-spacing:2px;
+    font-style:italic;
+}
+
+#footer-content {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+#column-1 {
+    padding:0;
+}
+
+#footer-luminary {
+    padding-bottom:30px;
+}
+
+.link-column {
+    width:unset;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    padding:30px 0;
+}
+
+.link-column a:hover {
+    font-weight:900;
+    letter-spacing:0;
+}
+
+.final-footer-text {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+/* 3. TEXT STYLING START */
+
+h1 {
+    font-size:40px;
+    line-height:48px;
+}
+
+h2 {
+    font-size:38px;
+    line-height:48px;
+}
+
+h3 {
+    font-size:20px;
+    line-height:24px;
+}
+
+h4 {
+    font-size:16px;
+    line-height:20px;
+}
+
+.nav-text {
+    font-size:24px;
+    line-height:36px;
+    font-weight:900;
+    font-style:italic;
+}
+
+h1,h2,h3,h4 {
+    font-weight:900;
+    font-style:italic;
+}
+
+p {
+    padding-bottom:5px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.white-text {
+    color:#fff;
+}
+
+.grey-text {
+    color:#c0c0c0;
+}
+
+.green-text {
+    color:#6E896A;
+}
+
+.black-text {
+    color:#000;
+}
+
+.orange-text {
+    color:#EE892F;
+}
+
+/* 4. BUTTONS, DROPDOWNS, INPUTS START */
+
+button {
+    width:290px;
+    border:none;
+    margin:30px 0;
+    padding:10px;
+
+    font-size:20px;
+    line-height:24px;
+    letter-spacing:2px;
+    font-weight:500;
+    font-style:italic;
+}
+
+button:hover {
+    letter-spacing:0;
+    font-weight:900;
+    cursor:pointer;
+}
+
+.drop-down {
+    width:fit-content;
+    padding:10px 20px;
+}
+
+input[type=text], button {
+    width:290px;
+    padding:10px;
+    margin:10px 0;
+    border:3px solid #fff;
+    background:none;
+
+    color:#fff;
+    font-size:20px;
+    line-height:24px;
+    font-weight:500;
+    letter-spacing:2px;
+    font-style:italic;
+}
+
+input::placeholder {
+    color:#fff;
+}
+
+input:focus {
+    outline:none;
+    caret-color:#fff;
+}
+
+/* 5. PAGE STYLING START */
+
+#landing-page main {
+    width:100%;
+    height:100vh;
+}
+
+#landing-page-content {
+    padding:50px 30px;
+    position:absolute;
+    bottom:0;
+}
+
+#landing-page-content h1 {
+    padding-bottom:30px;
+}
+
+#about-page-img {
+    display:block;
+    position:fixed;
+    z-index:-10;
+    top:0;
+    width:100%;
+    height:500px;
+    overflow:hidden;
+}
+
+#about-page-img img {
+    width:100vw;
+    margin:0;
+    padding:0;
+    position:fixed;
+}
+
+#about-content {
+    width:100%;
+    margin-top:410px;
+    padding:60px 30px;
+    
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+#shop-page {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding:0 0 60px;
+}
+
+#shop-categories {
+    width:100%;
+    padding:0 30px;
+}
+
+#shop-categories button {
+    display:block;
+}
+
+#desk-categories {
+    display:none;
+}
+
+#shop-right-side {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+#shop-items {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding:15px;
+}
+
+.shop-item {
+    width:100%;
+    padding:30px 15px;
+}
+
+.shop-item img {
+    width:100%;
+    transition:.2s all ease-in-out;
+}
+
+.shop-item img:hover {
+    padding:10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-name {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.product-name p {
+    font-size:16px;
+    line-height:20px;
+    font-style:italic;
+    letter-spacing:2px;
+    font-weight:500;
+}
+
+#view-more {
+    width:100%;
+    padding:0 30px;
+}
+
+#exchange-content {
+    width:100%;
+    padding:50px 30px;
+    position:absolute;
+    bottom:0;
+    z-index:-9;
+    display:block;
+}
+
+#bag-content {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+}
+
+.cart-item {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.cart-item-img {
+    width:100%;
+}
+
+.cart-item-img img {
+    width:100%;
+}
+
+.cart-item-info p {
+    font-size:16px;
+    line-height:20px;
+    padding:20px 0;
+    color:#777;
+}
+
+.cart-item-cross {
+    width:36px;
+}
+
+/* 6. MEDIA QUERIES START */
+
+@media only screen and (min-width:850px) {
+
+    /* 1. background styling */
+    /* 2. header, main, footer */
+    /* 3. text */
+    /* 4. buttons, dropdowns, inputs */
+    /* 5. pages */
+    /* 6. media queries */
+
+    /* 1. BACKGROUND STYLING START */
+    #landing-page {
+        width:100%;
+        height:100%;
+        background-image:url(../images/landing-page-bg-desk.png);
+        background-size:contain;
+    }
+    #exchange-page {
+        background-image:url(../images/exchange-bg.png);
+    }
+
+    /* 2. HEADER, MAIN, FOOTER START */
+    .mob-nav {
+        display:none;
+    }
+    .desk-nav {
+        display:unset;
+    }
+    .desk-nav ul{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        padding:30px 50px;
+    }
+    footer {
+        padding:100px 100px 60px;
+    }
+    #footer-content {
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    #column-1 {
+        padding-right:20%;
+    }
+    .link-column {
+        width:15%;
+    }
+    #landing-page .link-column {
+        width:50%;
+        text-align:right;
+    }
+    .final-footer-text {
+        flex-direction:row;
+        justify-content:space-between;
+    }
+
+    /* 5. PAGES STYLING START */
+    #landing-page-content {
+        padding:120px 150px;
+    }
+    #about-page-img img {
+        height:100vh;
+        overflow:hidden;
+        margin:0;
+        padding:0;
+    }
+    #about-page-img img {
+        width:40%;
+        height:auto;
+    }
+    #about-content {
+        width:60%;
+        float:right;
+        margin:0;
+        padding:100px;
+    }
+    #shop-page {
+        flex-direction:row;
+        padding:60px 100px;
+    }
+    #shop-categories {
+        width:25%;
+        padding:40px 0 0;
+    }
+    #shop-categories button {
+        display:none;
+    }
+    #desk-categories {
+        display:block;
+        font-weight:500;
+        font-style:italic;
+        letter-spacing:2px;
+    }
+    #desk-categories a:hover {
+        font-weight:900;
+        letter-spacing:0;
+    }
+    #shop-right-side {
+        width:75%;
+    }
+    #shop-items {
+        width:100%;
+        padding:20px;
+        flex-flow:row wrap;
+    }
+    .shop-item {
+        width:33%;
+        padding:20px;
+    }
+    #view-more {
+        width:100%;
+    }
+    #exchange-content {
+        padding:120px 150px;
+        display:flex;
+        flex-direction:row;
+        gap:100px;
+        align-items:flex-end;
+    }
+    #bag-content {
+        width:100%;
+        flex-direction:row;
+        padding:100px;
+    }
+    #cart-left {
+        width:60%;
+    }
+    .cart-item {
+        flex-direction:row;
+    }
+    .cart-item-img {
+        width:25%;
+    }
+    .cart-item-info {
+        width:75%;
+    }
+}

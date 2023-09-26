@@ -1,0 +1,226 @@
+* {
+    box-sizing:border-box;
+}
+
+*, html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#222;
+    font-size:9px;
+}
+
+header, footer {
+    width:100%;
+    height:21px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:center;
+    padding:3px;
+    position:fixed;
+    background-color:rgba(255, 255, 255, 0.8);
+
+    font-size:8px;
+    line-height:1;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+header {
+    top:0;
+    border-bottom:1px solid #eee;
+    box-shadow:0 5px 20px #eee;
+}
+
+footer {
+    bottom:0;
+    border-top:1px solid #eee;
+    box-shadow:0 -5px 20px #eee;
+}
+
+.hf-text {
+    margin:3px;
+}
+
+main {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+}
+
+.sidebar {
+    width:30%;
+    height:100%;
+    border-right:1px solid #eee;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#logo {
+    max-width:150px;
+    border-radius:50%;
+    border:1px solid #eee;
+    transition:all 0.5s ease-in-out;
+}
+
+#logo:hover {
+    max-width:155px;
+    box-shadow:0 10px 30px #f4f4f4;
+}
+
+.content {
+    width:70%;
+    height:100%;
+    background-image:url('https://i.imgur.com/CKedHME.png');
+    background-color:#f4f4f4;
+    padding:71px 0;
+    overflow:auto;
+}
+
+section {
+    max-width:800px;
+    margin:50px auto;
+    background-color:#fff;
+    display:flex;
+    flex-flow:row wrap;
+    border:1px solid #eee;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 20px #eee;
+    transition:all 0.5s ease-in-out;
+}
+
+section:hover {
+    box-shadow:0 10px 30px #c9c9c9;
+    border:1px solid #c9c9c9;
+}
+
+.section-bg {
+    width:65%;
+    background-size:cover;
+    background-color:#999;
+}
+
+section div {
+    width:35%;
+    padding:30px;
+    border-left:1px solid #eee;
+}
+
+section p {
+    padding:5px;
+}
+
+section a {
+    padding:2px 5px 3px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    text-decoration:none;
+    transition:0.2s;
+}
+
+#think-local a {
+    background-color:#5cce89;
+    color:#fff;
+}
+
+#read-all-about-it a {
+    background-color:#ffd392;
+    color:#222;
+}
+
+#luminary a {
+    background-color:#000;
+    color:#fff;
+}
+
+#kahui a {
+    background-color:#6d3edc;
+    color:#fff;
+}
+
+section a:hover {
+    padding:2px 10px 3px;
+    font-weight:bold;
+}
+
+h1 {
+    font-size:64px;
+    line-height:1;
+}
+
+h2 {
+    padding:5px;
+
+    font-size:12px;
+    line-height:1;
+    text-transform:uppercase;
+    font-weight:bold;
+    letter-spacing:4px;
+}
+
+h3 {
+    padding:5px;
+
+    font-size:9px;
+    line-height:1;
+    color:#999;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-style:italic;
+}
+
+hr {
+    height:1px;
+    border:none;
+    margin:5px 5px 10px;
+    background-color:#eee;
+}
+
+@media only screen and (max-width: 1080px) {
+    section {
+        width:90%
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header, footer {
+        height:auto;
+        display:block;
+        text-align:center;
+        box-shadow:none;
+    }
+    main {
+        height:auto;
+        margin:0;
+        flex-direction:column;
+    }
+    .sidebar {
+        display:none;
+    }
+    .content {
+        width:100%;
+        position:absolute;
+        top:0;
+        height:100vh;
+        padding:50px 0;
+        margin-left:0;
+        z-index:1;
+    }
+    .section-bg, section div {
+        width:50%;
+    }
+}

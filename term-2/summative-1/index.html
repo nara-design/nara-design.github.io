@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminary</title>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;900&display=swap" rel="stylesheet">
+</head>
+<body id="landing-page">
+    
+    <header>
+
+        <!-- mob nav start -->
+        <div class="mob-nav">
+            <img class="menu-button" onclick="toggleMenu()" src="images/hamburger-menu-white.svg" alt="hamburger menu icon">
+            <div class="nav-text white-text">Luminary</div>
+        </div>
+        <!-- mob nav finish -->
+
+        <!-- mob menu start -->
+        <div id="theMenu" class="menu">
+            <img class="close-button" onclick="toggleMenu()" src="images/exit-button-black.svg" alt="cross icon">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Luminary</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="exchange.html">Exchange</a></li>
+                    <li><a href="">Bag</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- mob menu finish -->
+
+        <!-- desk nav start -->
+        <div class="desk-nav">
+            <nav>
+                <ul>
+                    <li><a class="white-text active-nav" href="index.html">Luminary</a></li>
+                    <li><a class="white-text" href="about.html">About</a></li>
+                    <li><a class="white-text" href="shop.html">Shop</a></li>
+                    <li><a class="white-text" href="exchange.html">Exchange</a></li>
+                    <li><a class="white-text" href="">Bag</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- desk nav finish -->
+
+    </header>
+
+    <main>
+        
+        <div id="landing-page-content">
+            <h1 class="white-text">Where streetwear<br>meets sustainability,<br>quality, and creativity.</h1>
+            <a href="shop.html">
+                <button class="white-background">Shop Collection &rarr;</button>
+            </a>
+        </div>
+
+    </main>
+
+    <footer class="black-bg">
+
+        <div id="footer-content">
+
+            <!-- column 1 start -->
+            <div id="column-1">
+                <!-- mascot + logo start -->
+                <center>
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_IzGVkjU9Ha.json" mode="bounce" background="transparent"  speed="1"  style="width: 250px; height: 250px;"  loop autoplay></lottie-player>
+                    <div id="footer-luminary" class="nav-text white-text" style="letter-spacing:0;">Luminary</div>
+                </center>
+                <!-- mascot + logo finish -->
+            </div>
+            <!-- column 1 finish -->
+
+            <!-- column 2 start -->
+            <div class="link-column">
+                <p><a class="white-text" href="#">Shop 37/7 Queen Street</a></p>
+                <p><a class="white-text" href="#">Auckland CBD</a></p>
+                <p><a class="white-text" href="#">Auckland 1010</a></p>
+            </div>
+            <!-- column 2 finish -->
+
+        </div>
+
+        <div class="final-footer-text grey-text">
+            <p>&nbsp;</p>
+            <p>This site is for educational purposes only.</p>
+            <p>&copy; 2023 Luminary</p>
+        </div>
+        
+    </footer>
+
+</body>
+</html>

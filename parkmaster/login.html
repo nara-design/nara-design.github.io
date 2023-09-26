@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParkMaster</title>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&family=Palanquin+Dark:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+
+        <div class="mob-head">
+            <img id="open-menu-button" onclick="toggleMenu()" src="images/hamburger-menu-icon.svg" alt="hamburger menu icon">
+            <h2 id="name">ParkMaster</h2>
+        </div>
+
+        <div id="theMenu" class="menu">
+            <img id="close-menu-button" onclick="toggleMenu()" src="images/cross-icon.svg" alt="cross icon">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Map</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <img id="menu-logo" src="images/parkmaster-logo.svg" alt="parkmaster logo">
+        </div>
+
+        <div class="desk-head max-width">
+            <div id="name-bit">
+                <a href="index.html"><img id="desk-head-logo" src="images/parkmaster-logo.svg" alt="parkmaster logo"></a>
+                <div id="name-text">
+                    <h1>ParkMaster</h1>
+                    <p style="margin-top:-10px;"><b>Christchurch parking made easy</b></p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Map</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active-nav" href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    
+    <main>
+
+        <div class="login-page white-text">
+
+            <h1 style="margin-bottom:25px;">Login</h1>
+            <a class="green-text green-underline" href="signup.html"><b>Or: create a new account</b></a>
+
+            <form>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required>
+                <label for="password1">Password</label>
+                <input type="password" id="password1" name="password" required>
+            </form>
+
+            <a class="clicky green-bg">Login</a>
+            <div>
+                <a class="green-text green-underline" href="#"><b>Forgot password</b></a>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+</html>

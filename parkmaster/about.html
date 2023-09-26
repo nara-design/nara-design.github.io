@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParkMaster</title>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&family=Palanquin+Dark:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+
+        <div class="mob-head">
+            <img id="open-menu-button" onclick="toggleMenu()" src="images/hamburger-menu-icon.svg" alt="hamburger menu icon">
+            <h2 id="name">ParkMaster</h2>
+        </div>
+
+        <div id="theMenu" class="menu">
+            <img id="close-menu-button" onclick="toggleMenu()" src="images/cross-icon.svg" alt="cross icon">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Map</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <img id="menu-logo" src="images/parkmaster-logo.svg" alt="parkmaster logo">
+        </div>
+
+        <div class="desk-head max-width">
+            <div id="name-bit">
+                <a href="index.html"><img id="desk-head-logo" src="images/parkmaster-logo.svg" alt="parkmaster logo"></a>
+                <div id="name-text">
+                    <h1>ParkMaster</h1>
+                    <p style="margin-top:-10px;"><b>Christchurch parking made easy</b></p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Map</a></li>
+                    <li><a class="active-nav" href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    
+    <main>
+
+        <div class="about-page">
+
+            <section class="full max-width white-text">
+                <h2 class="third padding-25">Park smarter,<br>not harder</h2>
+                <p class="two-thirds padding-25">ParkMaster is a revolutionary website designed to help users find parking options in their city. With a comprehensive database of all kinds of parking, from free to paid, bike, and mobility parking, ParkMaster takes the hassle out of finding a place to park. Users simply enter their location and the type of parking they need, and ParkMaster generates a list of available options. Whether you're looking for a spot for your car, bike, or mobility device, ParkMaster has got you covered.</p>
+            </section>
+    
+            <div class="green-bg">
+                <section class="max-width">
+                    <h2 class="full padding-25">Find parking in three simple steps</h2>
+                    <div id="about-steps" class="full">
+                        <div class="third padding-25">
+                            <img src="images/search-page-snip.png" alt="step 1">
+                            <h3>Enter your destination</h3>
+                        </div>
+                        <div class="third padding-25">
+                            <img src="images/search-results-snip.png" alt="step 2">
+                            <h3>Browse your options</h3>
+                        </div>
+                        <div class="third padding-25">
+                            <img src="images/carpark-snip.png" alt="step 3">
+                            <h3>Park with ease</h3>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="full max-width white-text">
+                <h2 class="third padding-25">Simplify your<br>parking experience</h2>
+                <div class="two-thirds padding-25">
+                    <p>ParkMaster is an innovative platform designed to simplify the search for parking options in your city. It boasts a comprehensive database of parking options, including both paid and free parking, as well as bays for bicycles and mobility devices. With just a few clicks, ParkMaster generates a list of available parking options based on your location and the type of parking you need.</p>
+                    <p>ParkMaster's advanced search features allow you to filter your results according to your preferences. You can narrow down your search based on factors such as pricing, hours of operation, number of bays, and peak hours. This feature makes it easy for you to find the ideal parking spot that meets your specific requirements.</p>
+                </div>
+            </section>
+
+        </div>
+
+        <footer>
+            <p><b>This site is for educational purposes only.</b></p>
+        </footer>
+
+    </main>
+
+</body>
+</html>

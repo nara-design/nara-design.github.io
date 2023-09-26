@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kāhui</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script defer src="js/main.js"></script>
+</head>
+<body id="wish-bg">
+
+    <!-- nav start -->
+    <nav>
+
+        <!-- bar start -->
+        <div class="nav-top">
+            <div class="nav-line">&nbsp;</div>
+            <div class="nav-star-parent">
+                <div id="star-box-wish">
+                    <center>
+                        <img class="nav-star" src="images/star-icon.svg" alt="">
+                    </center>
+                </div>
+            </div>
+        </div>
+        <!-- bar finish -->
+
+        <!-- links start -->
+        <div class="nav-links">
+            <a class="nav-border" href="index.html">Nau mai<br>Welcome</a>
+            <a class="nav-border" href="event-details.html">mō tēnei hui<br>Event details</a>
+            <a class="nav-border" href="bts.html">Ngā Māori i te Hangarau<br>māori in Tech</a>
+            <a class="nav-border" href="matariki.html">torotoro i a Matariki<br>Explore Matariki</a>
+            <a class="nav-border nav-active" href="wish.html">Hiwa-i-te-rangi<br>The wishing star</a>
+            <a href="resources.html">rauemi<br>Resources</a>
+        </div>
+        <!-- links finish -->
+
+    </nav>
+    <!-- nav finish -->
+
+    <!-- header start -->
+    <header>
+        <div class="header-max">
+            
+            <!-- mobile nav star -->
+            <div class="menu-container">
+
+                <!-- menu button start -->
+                <a id="menu-toggle" class="menu-toggle">
+                  <span class="menu-toggle-bar menu-toggle-bar--top"></span>
+                  <span class="menu-toggle-bar menu-toggle-bar--bottom"></span>
+                </a>
+                <!-- menu button finish -->
+
+            </div>
+            <!-- mobile nav finish -->
+
+            <!-- logo start -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/kahui-logo-white.svg" alt="kāhui logo">
+                </a>
+            </div>
+            <!-- logo finish -->
+
+        </div>
+    </header>
+    <!-- header finish -->
+
+    <!-- mob menu start -->
+    <div id="mobMenu" class="mob-menu">
+        <div class="page-fade-in">&nbsp;</div>
+        <ul>
+            <li><a href="index.html">Nau mai<br>Welcome</a></li>
+            <li>
+                <a href="event-details.html">mō tēnei hui<br>Event details</a>
+            </li>
+            <li><a href="bts.html">Ngā Māori i te Hangarau<br>māori in Tech</a></li>
+            <li><a href="matariki.html">torotoro i a Matariki<br>Explore Matariki</a></li>
+            <li>
+                <span style="float:left;padding:7px 10px;"><img src="images/star-icon.svg" alt="" style="width:20px;height:20px;"></span>
+                <a class="nav-active" href="wish.html">Hiwa-i-te-rangi<br>The wishing star</a>
+            </li>
+            <li><a href="resources.html">rauemi<br>Resources</a></li>
+        </ul>
+    </div>
+    <!-- mob menu finish -->
+
+    <main class="main-padding-2">
+        <div class="page-transition fraction-parent gap-between">
+
+            <!-- left side start -->
+            <div class="half top-padding">
+                <h1>Whakatakotoria ō whakaaro mō te Tau Hou</h1>
+                <h2>Set your intentions for the Māori New Year</h2>
+                <p class="top-padding">
+                    Ka whakahoutia te pakitara me to tukunga.<br>
+                    The wall will be updated with your submission.
+                </p>
+            </div>
+            <!-- left side finish -->
+
+            <div class="half">
+                <form class="wish-submission" action="">
+                    <input type="text" id="name" placeholder="ingoa / name">
+                    <textarea id="wish-sub" placeholder="Tukuna mai ō whakaaro, ō whāinga mō te tau hōu&#013;Submit your wishes or goals for the new year"></textarea>
+                    <button class="purple-button" style="margin:20px 0;">
+                        <a>tuku<br>Submit</a>
+                    </button>
+                    <p style="color: #fff;
+                    font-size: 10px;
+                    line-height: 14px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;">
+                        Whakapau kōrero: Kaore mātou e pupuri, e tiaki rānei i ō taipitopito tangata.<br>
+                        Disclaimer: we do not retain or store your personal data.
+                    </p>
+                </form>
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+</html>

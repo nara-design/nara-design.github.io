@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nara's Portfolio</title>
+
+  <script src="js/menu.js" defer></script>
+  <script src="js/main.js" defer></script>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/menu.css">
+
+  <meta name="view-transition" content="same-origin">
+
+  <script src="https://kit.fontawesome.com/bc961035cb.js" crossorigin="anonymous"></script>
+
+  <!-- federo typeface -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+
+  <!-- exo typeface -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- desktop menu start -->
+  <!-- ADD default-expanded class if relevant -->
+  <header id="menu" class="menu-big default-expanded">
+
+    <!-- left content start -->
+    <div class="menu-left-content">
+
+      <div class="menu-item">
+        <h1>nara</h1>
+        <p class="bigger-body blurb">Kia ora, I’m Nara. I care about crafting comfortable and purpose-driven design experiences.</p>
+      </div>
+
+
+      <nav class="menu-item">
+        <ul>
+          <li>
+            <a href="#top">Portfolio</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+    <!-- left content finish -->
+
+    <!-- right content start -->
+    <div id="menu-indicator" class="menu-right-content">
+
+      <!-- hamburger menu start -->
+      <div>
+        <div class="hamburger-line">&nbsp;</div>
+        <div class="hamburger-line">&nbsp;</div>
+        <div class="hamburger-line">&nbsp;</div>
+      </div>
+
+      <div id="menu-indicator" class="menu-indicator">
+        <div class="menu-indicator-text">MENU</div>
+        <img src="images/menu-arrow-indicator.svg" alt="">
+      </div>
+      <!-- hamburger menu finish -->
+
+    </div>
+    <!-- right content finish -->
+
+  </header>
+  <!-- desktop menu finish -->
+  
+  <!-- mob menu start -->
+  <div id="mobMenu" class="mob-menu mob-menu-hide">
+
+    <div class="menu-item content-slide-in">
+      <h1>nara</h1>
+      <p class="bigger-body blurb">Kia ora, I’m Nara. I care about crafting comfortable and purpose-driven design experiences.</p>
+    </div>
+    
+    <nav class="menu-item">
+      <ul>
+        <li>
+          <a href="#top">Portfolio</a>
+        </li>
+        <li>
+          <a href="">About</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+  <!-- mob menu finish -->
+
+  <!-- hamburger button start -->
+  <div id="menu-toggle" class="menu-toggle">
+    <div class="hamburger-line-top">&nbsp;</div>
+    <div class="hamburger-line-middle">&nbsp;</div>
+    <div class="hamburger-line-bottom">&nbsp;</div>
+  </div>
+  <!-- hamburger button finish -->
+
+  <!-- main content start -->
+  <!-- change between full-main or squished-main classes depending on what's relevant -->
+  <main class="squished-main">
+
+    <!-- DON'T DELETE THESE START -->
+    <div id="top"></div>
+
+    <a href="#top">
+      <button class="top-btn">
+        <i class="fa-solid fa-arrow-up-long"></i>
+      </button>
+    </a>
+    <!-- DONT DELETE THESE FINISH -->
+
+    <!-- sections start -->
+    <div class="project-list">
+
+        <!-- nautiqua start -->
+        <section>
+          <div id="bg-nautiqua-case-study" class="three-fifth-width">
+          </div>
+          <div class="two-fifth-width section-inner">
+            <h4 class="section-item">2024</h4>
+            <h3 class="section-item">Nautiqua</h3>
+            <hr>
+            <p class="section-item">A speculative campaign on promoting NZ aquaculture through a health product.</p>
+            <div class="section-item">
+              <span class="project-tag">Experience Design</span>
+              <span class="project-tag">UI Design</span>
+              <span class="project-tag">3D Visualisation</span>
+            </div>
+            <div class="section-item">
+              <a href="nautiqua.html">
+                <button class="case-study-btn">view case study</button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- nautiqua finish -->
+
+    </div>
+    <!-- sections finish -->
+
+    <!-- footer start -->
+    <footer id="contact" class="white-text">
+
+      <h2>Drop me a line</h2>
+      <div class="footer-flex">
+        <p>+64 22 126 8697</p>
+        <p>wonara.nz@gmail.com</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/nara_won" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/nara-w" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+        <div style="width:50px;">&nbsp;</div>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2024 Nara Won</p>
+      </div>
+
+    </footer>
+    <!-- footer finish -->
+
+  </main>
+  <!-- main content finish -->
+
+</body>
+</html>
